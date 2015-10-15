@@ -1,0 +1,20 @@
+#
+# This file can be given to mkgmap using the -c option
+# Please edit it first to add a description of each map.
+#
+
+# You can set the family id for the map
+# family-id: 980
+# product-id: 1
+
+# Following is a list of map tiles.  Add a suitable description
+# for each one.
+
+mapname: 63240001
+# description: OSM Map
+input-file: 63240001.osm.pbf
+
+mapname: 63240002
+# description: OSM Map
+input-file: 63240002.osm.pbf
+

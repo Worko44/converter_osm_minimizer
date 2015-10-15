@@ -1,0 +1,524 @@
+Splitter version 427 compiled 2015-08-12T09:24:31+0100
+boundary-tags=use-exclude-list
+cache=
+description=
+geonames-file=
+keep-complete=true
+mapid=63240001
+max-areas=512
+max-nodes=1600000
+max-threads=8 (auto)
+mixed=false
+no-trim=false
+num-tiles=
+output=pbf
+output-dir=
+overlap=auto
+polygon-desc-file=
+polygon-file=
+precomp-sea=
+problem-file=
+problem-report=
+resolution=13
+search-limit=200000
+split-file=
+status-freq=120
+stop-after=dist
+wanted-admin-level=5
+write-kml=
+Elapsed time: 0s   Memory: Current 119MB (4MB used, 115MB free) Max 889MB
+Time started: Sun Oct 04 11:31:49 CEST 2015
+Map is being split for resolution 13:
+ - area boundaries are aligned to 0x800 map units (0.0439453125 degrees)
+ - areas are multiples of 0x800 map units wide and high
+Processing ../osm_file/martinique-latest.osm
+A <bounds/> tag was found. Area covered is (14.330570697784424,-61.39082908630371) to (14.959022998809814,-60.69545030593872)
+in 1 file
+Time: Sun Oct 04 11:31:52 CEST 2015
+Exact map coverage read from input file(s) is (14.330570697784424,-61.39082908630371) to (14.959022998809814,-60.69545030593872)
+Rounded map coverage is (14.326171875,-61.3916015625) to (14.9853515625,-60.6884765625)
+Splitting nodes into areas containing a maximum of 1 600 000 nodes each...
+Highest node count in a single grid element is 216 491
+Solving partition (14.326171875,-61.3916015625) to (14.9853515625,-60.6884765625) with 1 786 133 nodes
+Trying to find nice split for (14.326171875,-61.3916015625) to (14.9853515625,-60.6884765625) with 1 786 133 nodes
+searching for split with min-nodes 80000, learned 0 good partial solutions
+Best solution until now: 2 tile(s). The smallest node count is 729775 (45 %), the worst aspect ratio is near 2.21, elapsed search time: 0 s
+searching for split with min-nodes 802752, learned 0 good partial solutions
+Best solution until now: 2 tile(s). The smallest node count is 842744 (52 %), the worst aspect ratio is near 2.21, elapsed search time: 0 s
+searching for split with min-nodes 973200, learned 0 good partial solutions
+searching for split with min-nodes 907972, learned 0 good partial solutions
+searching for split with min-nodes 875358, learned 0 good partial solutions
+searching for split with min-nodes 859051, learned 0 good partial solutions
+searching for split with min-nodes 850897, learned 0 good partial solutions
+searching for split with min-nodes 846820, learned 0 good partial solutions
+searching for split with min-nodes 844782, learned 0 good partial solutions
+searching for split with min-nodes 843763, learned 0 good partial solutions
+searching for split with min-nodes 842745, learned 0 good partial solutions
+Solution is nice. Can't find a better solution with search-limit 200000: 2 tile(s). The smallest node count is 842744 (52 %), the worst aspect ratio is near 2.21
+Final solution: 2 tile(s). The smallest node count is 842744 (52 %), the worst aspect ratio is near 2.21
+This seems to be nice.
+Area 63240001 covers (14.6337890625,-61.3916015625) to (14.9853515625,-60.6884765625) and contains 842744 nodes (52 %)
+Area 63240002 covers (14.326171875,-61.3916015625) to (14.6337890625,-60.7763671875) and contains 943389 nodes (58 %)
+Creating the initial areas took 16 ms
+2 areas:
+Area 63240001: 681984,-2861056 to 698368,-2828288 covers (0xa6800,0xffd45800) to (0xaa800,0xffd4d800)
+Area 63240002: 667648,-2861056 to 681984,-2832384 covers (0xa3000,0xffd45800) to (0xa6800,0xffd4c800)
+Generating problem list for 2 distinct areas
+Processing 2 areas in a single pass
+Pseudo-Writers:
+Pseudo area -3 covers (14.9853515625,-180.0) to (90.0,180.0)
+Pseudo area -4 covers (-90.0,-180.0) to (14.326171875,180.0)
+Pseudo area -5 covers (14.326171875,-180.0) to (14.9853515625,-61.3916015625)
+Pseudo area -6 covers (14.326171875,-60.7763671875) to (14.6337890625,-60.6884765625)
+Pseudo area -7 covers (14.326171875,-60.6884765625) to (14.9853515625,180.0)
+cached 8 combinations of areas that form rectangles.
+WriterGridTree [512][512] for grid area (-90.0,-180.0) to (90.0,180.0) requires max. 4 checks for each node (0 sub grid(s))
+Grid(s) created in 79 ms
+Starting problem-list-generator pass(es) for partition 1
+-----------------------------------
+Starting problem-list-generator pass 1 of 1 for partition 1
+SparseLong2ShortMapInline: Allocating three-tier structure to save area info (HashMap->vector->chunkvector)
+SparseLong2ShortMapInline: Allocating three-tier structure to save area info (HashMap->vector->chunkvector)
+Processing ../osm_file/martinique-latest.osm
+A <bounds/> tag was found. Area covered is (14.330570697784424,-61.39082908630371) to (14.959022998809814,-60.69545030593872)
+Processing ../osm_file/martinique-latest.osm
+A <bounds/> tag was found. Area covered is (14.330570697784424,-61.39082908630371) to (14.959022998809814,-60.69545030593872)
+Statistics for coords map:
+Length-1 chunks: 53 396, used Bytes including overhead: 546 336
+Length-2 chunks: 31, used Bytes including overhead: 528
+Length-3 chunks: 52, used Bytes including overhead: 824
+Length-4 chunks: 123, used Bytes including overhead: 2 032
+Length-5 chunks: 1 140, used Bytes including overhead: 21 024
+Length-6 chunks: 417, used Bytes including overhead: 8 808
+Length-7 chunks: 3 080, used Bytes including overhead: 69 312
+Length-8 chunks: 597, used Bytes including overhead: 15 208
+Length-9 chunks: 1 638, used Bytes including overhead: 43 440
+Length-10 chunks: 509, used Bytes including overhead: 14 408
+Length-11 chunks: 2 467, used Bytes including overhead: 75 416
+Length-12 chunks: 381, used Bytes including overhead: 12 360
+Length-13 chunks: 1 285, used Bytes including overhead: 45 608
+Length-14 chunks: 378, used Bytes including overhead: 13 872
+Length-15 chunks: 1 764, used Bytes including overhead: 68 256
+Length-16 chunks: 227, used Bytes including overhead: 10 056
+Length-17 chunks: 819, used Bytes including overhead: 35 032
+Length-18 chunks: 164, used Bytes including overhead: 8 272
+Length-19 chunks: 1 103, used Bytes including overhead: 52 984
+Length-20 chunks: 124, used Bytes including overhead: 6 136
+Length-21 chunks: 593, used Bytes including overhead: 31 816
+Length-22 chunks: 93, used Bytes including overhead: 6 400
+Length-23 chunks: 791, used Bytes including overhead: 44 792
+Length-24 chunks: 75, used Bytes including overhead: 6 768
+Length-25 chunks: 373, used Bytes including overhead: 22 280
+Length-26 chunks: 74, used Bytes including overhead: 7 272
+Length-27 chunks: 530, used Bytes including overhead: 35 536
+Length-28 chunks: 46, used Bytes including overhead: 3 976
+Length-29 chunks: 238, used Bytes including overhead: 16 800
+Length-30 chunks: 52, used Bytes including overhead: 4 280
+Length-31 chunks: 337, used Bytes including overhead: 26 600
+Length-32 chunks: 38, used Bytes including overhead: 4 424
+Length-33 chunks: 176, used Bytes including overhead: 14 128
+Length-34 chunks: 45, used Bytes including overhead: 4 736
+Length-35 chunks: 193, used Bytes including overhead: 19 512
+Length-36 chunks: 9, used Bytes including overhead: 4 704
+Length-37 chunks: 86, used Bytes including overhead: 10 184
+Length-38 chunks: 14, used Bytes including overhead: 5 000
+Length-39 chunks: 100, used Bytes including overhead: 10 808
+Length-40 chunks: 9, used Bytes including overhead: 5 216
+Length-41 chunks: 52, used Bytes including overhead: 5 688
+Length-42 chunks: 5, used Bytes including overhead: 5 440
+Length-43 chunks: 72, used Bytes including overhead: 11 608
+Length-44 chunks: 6, used Bytes including overhead: 5 704
+Length-45 chunks: 47, used Bytes including overhead: 6 160
+Length-46 chunks: 3, used Bytes including overhead: 5 936
+Length-47 chunks: 46, used Bytes including overhead: 6 408
+Length-48 chunks: 5, used Bytes including overhead: 6 208
+Length-49 chunks: 29, used Bytes including overhead: 6 528
+Length-50 chunks: 2, used Bytes including overhead: 6 440
+Length-51 chunks: 31, used Bytes including overhead: 6 800
+Length-52 chunks: 1, used Bytes including overhead: 6 688
+Length-53 chunks: 19, used Bytes including overhead: 6 960
+Length-54 chunks: 0, used Bytes including overhead: 0
+Length-55 chunks: 18, used Bytes including overhead: 7 208
+Length-56 chunks: 1, used Bytes including overhead: 7 200
+Length-57 chunks: 2, used Bytes including overhead: 7 336
+Length-58 chunks: 0, used Bytes including overhead: 0
+Length-59 chunks: 1, used Bytes including overhead: 7 584
+Length-60 chunks: 2, used Bytes including overhead: 7 720
+Length-61 chunks: 2, used Bytes including overhead: 7 848
+Length-62 chunks: 2, used Bytes including overhead: 7 976
+Length-63 chunks: 3, used Bytes including overhead: 8 112
+Length-64 chunks: 1, used Bytes including overhead: 8 224
+
+Number of stored ids: 1 786 438 require ca. 127.61 bytes per pair. 73917 chunks are used, the avg. number of values in one 64-chunk is 24.
+Map details: bytes/overhead 1 296 930 / 226 686 406, overhead includes 27 arrays with 8 MB
+RLE compresion info: compressed / uncompressed size / ratio: 352 797 / 1 786 437 / 81%
+Statistics for ways map:
+Length-1 chunks: 5 847, used Bytes including overhead: 60 088
+Length-2 chunks: 7, used Bytes including overhead: 336
+Length-3 chunks: 13, used Bytes including overhead: 512
+Length-4 chunks: 10, used Bytes including overhead: 616
+Length-5 chunks: 50, used Bytes including overhead: 1 064
+Length-6 chunks: 5, used Bytes including overhead: 832
+Length-7 chunks: 162, used Bytes including overhead: 4 032
+Length-8 chunks: 3, used Bytes including overhead: 1 072
+Length-9 chunks: 87, used Bytes including overhead: 3 024
+Length-10 chunks: 6, used Bytes including overhead: 1 352
+Length-11 chunks: 244, used Bytes including overhead: 7 632
+Length-12 chunks: 8, used Bytes including overhead: 1 624
+Length-13 chunks: 106, used Bytes including overhead: 4 200
+Length-14 chunks: 12, used Bytes including overhead: 1 912
+Length-15 chunks: 318, used Bytes including overhead: 12 240
+Length-16 chunks: 2, used Bytes including overhead: 2 088
+Length-17 chunks: 117, used Bytes including overhead: 5 312
+Length-18 chunks: 4, used Bytes including overhead: 2 360
+Length-19 chunks: 255, used Bytes including overhead: 11 816
+Length-20 chunks: 6, used Bytes including overhead: 2 632
+Length-21 chunks: 109, used Bytes including overhead: 6 272
+Length-22 chunks: 4, used Bytes including overhead: 2 872
+Length-23 chunks: 231, used Bytes including overhead: 13 672
+Length-24 chunks: 1, used Bytes including overhead: 3 104
+Length-25 chunks: 91, used Bytes including overhead: 7 152
+Length-26 chunks: 4, used Bytes including overhead: 3 384
+Length-27 chunks: 192, used Bytes including overhead: 15 408
+Length-28 chunks: 1, used Bytes including overhead: 3 616
+Length-29 chunks: 95, used Bytes including overhead: 8 208
+Length-30 chunks: 0, used Bytes including overhead: 0
+Length-31 chunks: 181, used Bytes including overhead: 13 400
+Length-32 chunks: 2, used Bytes including overhead: 4 136
+Length-33 chunks: 77, used Bytes including overhead: 9 088
+Length-34 chunks: 1, used Bytes including overhead: 4 384
+Length-35 chunks: 182, used Bytes including overhead: 14 944
+Length-36 chunks: 0, used Bytes including overhead: 0
+Length-37 chunks: 64, used Bytes including overhead: 10 008
+Length-38 chunks: 0, used Bytes including overhead: 0
+Length-39 chunks: 106, used Bytes including overhead: 10 856
+Length-40 chunks: 1, used Bytes including overhead: 5 152
+Length-41 chunks: 49, used Bytes including overhead: 5 664
+Length-42 chunks: 1, used Bytes including overhead: 5 408
+Length-43 chunks: 45, used Bytes including overhead: 5 888
+Length-44 chunks: 1, used Bytes including overhead: 5 664
+Length-45 chunks: 10, used Bytes including overhead: 5 864
+Length-46 chunks: 0, used Bytes including overhead: 0
+Length-47 chunks: 34, used Bytes including overhead: 6 312
+Length-48 chunks: 1, used Bytes including overhead: 6 176
+Length-49 chunks: 16, used Bytes including overhead: 6 424
+Length-50 chunks: 0, used Bytes including overhead: 0
+Length-51 chunks: 10, used Bytes including overhead: 6 632
+Length-52 chunks: 0, used Bytes including overhead: 0
+Length-53 chunks: 6, used Bytes including overhead: 6 856
+Length-54 chunks: 0, used Bytes including overhead: 0
+Length-55 chunks: 4, used Bytes including overhead: 7 096
+Length-56 chunks: 0, used Bytes including overhead: 0
+Length-57 chunks: 3, used Bytes including overhead: 7 344
+Length-58 chunks: 1, used Bytes including overhead: 7 456
+Length-59 chunks: 0, used Bytes including overhead: 0
+Length-60 chunks: 0, used Bytes including overhead: 0
+Length-61 chunks: 0, used Bytes including overhead: 0
+Length-62 chunks: 1, used Bytes including overhead: 7 968
+Length-63 chunks: 0, used Bytes including overhead: 0
+Length-64 chunks: 0, used Bytes including overhead: 0
+
+Number of stored ids: 293 363 require ca. 86.98 bytes per pair. 8786 chunks are used, the avg. number of values in one 64-chunk is 33.
+Map details: bytes/overhead 213 980 / 25 302 996, overhead includes 3 arrays with 8 MB
+RLE compresion info: compressed / uncompressed size / ratio: 71 846 / 293 362 / 76%
+
+  Number of stored shorts for ways: 293 363
+  Number of stored integers for rels: 0
+  Number of stored combis in big dictionary: 7
+  Number of detected problem ways: 353
+  Number of detected problem rels: 25
+  JVM Memory Info: Current 759MB (515MB used, 244MB free) Max 889MB
+
+SparseLong2ShortMapInline: Allocating three-tier structure to save area info (HashMap->vector->chunkvector)
+Problem-list-generator pass 1 for partition 1 took 8725 ms
+Problem-list-generator pass(es) took 8840 ms
+cached 0 combinations of areas that form rectangles.
+WriterGridTree [512][512] for grid area (14.326171875,-61.3916015625) to (14.9853515625,-60.6884765625) requires max. 2 checks for each node (0 sub grid(s))
+Grid(s) created in 71 ms
+-----------------------------------
+Executing multi-tile analyses phase 1
+Processing ../osm_file/martinique-latest.osm
+A <bounds/> tag was found. Area covered is (14.330570697784424,-61.39082908630371) to (14.959022998809814,-60.69545030593872)
+Stats for MultiTileProcessor pass 1
+  SparseBitSet problemRels contains now 25 Ids.
+  SparseBitSet neededWays contains now 353 Ids.
+  SparseBitSet mpWays contains now 0 Ids.
+  SparseBitSet neededNodes contains now 0 Ids.
+  Number of stored relations: 835
+  Number of stored tile combinations in multiTileDictionary: 2
+Status: Finished collecting relations.
+  JVM Memory Info: Current 758MB (529MB used, 229MB free) Max 889MB
+starting to resolve relations containing problem relations ...
+Finished adding members of problem relations to problem lists.
+Stats for MultiTileProcessor pass 1
+  SparseBitSet neededWays contains now 1 003 Ids.
+  SparseBitSet mpWays contains now 676 Ids.
+  SparseBitSet neededNodes contains now 8 Ids.
+  Number of stored relations: 26
+  Number of stored tile combinations in multiTileDictionary: 2
+Status: starting to collect ids of needed way nodes ...
+Multi-tile analyses phase 1 took 4055 ms
+-----------------------------------
+Executing multi-tile analyses phase 2
+Processing ../osm_file/martinique-latest.osm
+A <bounds/> tag was found. Area covered is (14.330570697784424,-61.39082908630371) to (14.959022998809814,-60.69545030593872)
+Stats for MultiTileProcessor pass 2
+  SparseBitSet neededWays contains now 1 003 Ids.
+  SparseBitSet mpWays contains now 315 Ids.
+  SparseBitSet neededNodes contains now 78 715 Ids.
+  Number of stored relations: 26
+  Number of stored tile combinations in multiTileDictionary: 2
+Status: Finished collecting problem ways.
+Found 688 of 1 003 needed ways.
+Found 361 of 676 needed multipolygon ways.
+Stats for MultiTileProcessor pass 2
+  SparseBitSet neededWays contains now 1 003 Ids.
+  SparseBitSet mpWays contains now 315 Ids.
+  SparseBitSet neededNodes contains now 78 715 Ids.
+  Number of stored relations: 26
+  Number of stored tile combinations in multiTileDictionary: 2
+Status: Starting to collect coordinates for 78 715 needed nodes.
+  JVM Memory Info: Current 758MB (265MB used, 493MB free) Max 889MB
+Multi-tile analyses phase 2 took 4211 ms
+-----------------------------------
+Executing multi-tile analyses phase 3
+Processing ../osm_file/martinique-latest.osm
+A <bounds/> tag was found. Area covered is (14.330570697784424,-61.39082908630371) to (14.959022998809814,-60.69545030593872)
+Found 78 715 of 78 715 needed nodes.
+  JVM Memory Info: Current 757MB (338MB used, 419MB free) Max 889MB
+Calculating tiles for problem relations...
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42811476]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42807375]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42807374]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42807367]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42652944]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42807369]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [31567883]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [22803635]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42807376]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42807370]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [39578351]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [22803667]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [22803659]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [31568335]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42811488]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42811484]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42807371]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [70237300]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [22803642]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42738506]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42807368]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42807372]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42652951]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42652947]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42626850]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42626867]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42738505]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42626841]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42626864]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42652945]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42521763]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42811486]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42811483]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42829815]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42629490]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [26094678]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42811485]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42663882]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42626847]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42626862]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42652943]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42811487]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42727196]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42510235]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42652950]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [22803677]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42652946]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42495221]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42711847]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42807373]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42652948]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42626852]
+Incomplete multipolygon relation 3724133 (Section Atlantique): using bbox of closed polygon to calc tiles, ways: [42409463, 42412949, 42425571, 42486054, 42653590, 42493214, 42559837, 42559836, 42514137, 42520514, 149775235, 149775276, 42614807, 149775234, 42628100, 42645803, 42652954, 42647747, 42647749, 42647755, 42653245, 42662727, 42813391, 88813099, 42802180, 42802181, 102042684, 102042738, 102042752, 102042749, 99374618, 99374552, 99569994, 88802502, 88802518, 42739120, 42795372, 42793749, 42793436, 99502515, 99502523, 99563576, 99563602, 42793443, 42793435, 42793439, 42793441, 42815702, 42815703, 42815701, 42815700, 42815704, 42815699, 42727898, 277825127, 42722391, 94939196, 94939482, 42725516, 31568298, 366884003, 124493551, 102056031, 26054400, 102055996, 102056090, 102056022, 102056103, 51930482, 42674485, 42453708, 42442064, 42436310, 42333146, 39449981, 42371412, 42406121, 42405315]
+Stats for MultiTileProcessor pass 3
+  SparseBitSet neededWays contains now 1 003 Ids.
+  Number of stored tile combinations in multiTileDictionary: 3
+Status: Making sure that needed way nodes of relations are written to the correct tiles...
+Multi-tile analyses phase 3 took 4237 ms
+-----------------------------------
+Executing multi-tile analyses phase 4
+Processing ../osm_file/martinique-latest.osm
+A <bounds/> tag was found. Area covered is (14.330570697784424,-61.39082908630371) to (14.959022998809814,-60.69545030593872)
+Stats for MultiTileProcessor pass 4
+  SparseBitSet neededWays contains now 1 003 Ids.
+  Number of stored tile combinations in multiTileDictionary: 3
+  nodeWriterMap contains 78 715 pairs.
+  wayWriterMap contains 688 pairs.
+  relWriterMap contains 26 pairs.
+Status: Finished processing problem lists.
+Multi-tile analyses phase 4 took 4141 ms
+-----------------------------------
+Writing results of MultiTileAnalyser to temp files ...
+Wrote 78715 node pairs to /home/le-bar_a/Dev/worko/project/osm/splitter/./node5697565722709295754.tmp
+Wrote 688 way pairs to /home/le-bar_a/Dev/worko/project/osm/splitter/./way7969559279463223466.tmp
+Wrote 26 rel pairs to /home/le-bar_a/Dev/worko/project/osm/splitter/./rel3772554929885253288.tmp
+Writing temp files took 168 ms
+Distributing data Sun Oct 04 11:32:18 CEST 2015
+Processing 2 areas in a single pass
+SparseLong2ShortMapInline: Allocating three-tier structure to save area info (HashMap->vector->chunkvector)
+SparseLong2ShortMapInline: Allocating three-tier structure to save area info (HashMap->vector->chunkvector)
+Starting distribution pass 1 of 1, processing 2 areas (63240001 to 63240002)
+Processing ../osm_file/martinique-latest.osm
+A <bounds/> tag was found. Area covered is (14.330570697784424,-61.39082908630371) to (14.959022998809814,-60.69545030593872)
+Writing ways Sun Oct 04 11:32:21 CEST 2015
+Writing relations Sun Oct 04 11:32:23 CEST 2015
+Statistics for coords map:
+Length-1 chunks: 53 396, used Bytes including overhead: 546 336
+Length-2 chunks: 31, used Bytes including overhead: 528
+Length-3 chunks: 52, used Bytes including overhead: 824
+Length-4 chunks: 124, used Bytes including overhead: 2 040
+Length-5 chunks: 1 138, used Bytes including overhead: 21 008
+Length-6 chunks: 417, used Bytes including overhead: 8 808
+Length-7 chunks: 3 080, used Bytes including overhead: 69 312
+Length-8 chunks: 596, used Bytes including overhead: 15 200
+Length-9 chunks: 1 638, used Bytes including overhead: 43 440
+Length-10 chunks: 509, used Bytes including overhead: 14 408
+Length-11 chunks: 2 466, used Bytes including overhead: 75 408
+Length-12 chunks: 381, used Bytes including overhead: 12 360
+Length-13 chunks: 1 285, used Bytes including overhead: 45 608
+Length-14 chunks: 378, used Bytes including overhead: 13 872
+Length-15 chunks: 1 763, used Bytes including overhead: 68 248
+Length-16 chunks: 227, used Bytes including overhead: 10 056
+Length-17 chunks: 819, used Bytes including overhead: 35 032
+Length-18 chunks: 164, used Bytes including overhead: 8 272
+Length-19 chunks: 1 104, used Bytes including overhead: 52 992
+Length-20 chunks: 124, used Bytes including overhead: 6 136
+Length-21 chunks: 593, used Bytes including overhead: 31 816
+Length-22 chunks: 93, used Bytes including overhead: 6 400
+Length-23 chunks: 791, used Bytes including overhead: 44 792
+Length-24 chunks: 75, used Bytes including overhead: 6 768
+Length-25 chunks: 373, used Bytes including overhead: 22 280
+Length-26 chunks: 74, used Bytes including overhead: 7 272
+Length-27 chunks: 530, used Bytes including overhead: 35 536
+Length-28 chunks: 46, used Bytes including overhead: 3 976
+Length-29 chunks: 238, used Bytes including overhead: 16 800
+Length-30 chunks: 52, used Bytes including overhead: 4 280
+Length-31 chunks: 337, used Bytes including overhead: 26 600
+Length-32 chunks: 38, used Bytes including overhead: 4 424
+Length-33 chunks: 176, used Bytes including overhead: 14 128
+Length-34 chunks: 45, used Bytes including overhead: 4 736
+Length-35 chunks: 193, used Bytes including overhead: 19 512
+Length-36 chunks: 9, used Bytes including overhead: 4 704
+Length-37 chunks: 85, used Bytes including overhead: 10 176
+Length-38 chunks: 14, used Bytes including overhead: 5 000
+Length-39 chunks: 100, used Bytes including overhead: 10 808
+Length-40 chunks: 8, used Bytes including overhead: 5 208
+Length-41 chunks: 52, used Bytes including overhead: 5 688
+Length-42 chunks: 5, used Bytes including overhead: 5 440
+Length-43 chunks: 72, used Bytes including overhead: 11 608
+Length-44 chunks: 6, used Bytes including overhead: 5 704
+Length-45 chunks: 46, used Bytes including overhead: 6 152
+Length-46 chunks: 3, used Bytes including overhead: 5 936
+Length-47 chunks: 46, used Bytes including overhead: 6 408
+Length-48 chunks: 5, used Bytes including overhead: 6 208
+Length-49 chunks: 29, used Bytes including overhead: 6 528
+Length-50 chunks: 2, used Bytes including overhead: 6 440
+Length-51 chunks: 31, used Bytes including overhead: 6 800
+Length-52 chunks: 1, used Bytes including overhead: 6 688
+Length-53 chunks: 19, used Bytes including overhead: 6 960
+Length-54 chunks: 0, used Bytes including overhead: 0
+Length-55 chunks: 18, used Bytes including overhead: 7 208
+Length-56 chunks: 0, used Bytes including overhead: 0
+Length-57 chunks: 2, used Bytes including overhead: 7 336
+Length-58 chunks: 0, used Bytes including overhead: 0
+Length-59 chunks: 1, used Bytes including overhead: 7 584
+Length-60 chunks: 2, used Bytes including overhead: 7 720
+Length-61 chunks: 2, used Bytes including overhead: 7 848
+Length-62 chunks: 2, used Bytes including overhead: 7 976
+Length-63 chunks: 3, used Bytes including overhead: 8 112
+Length-64 chunks: 1, used Bytes including overhead: 8 224
+
+Number of stored ids: 1 786 133 require ca. 127.63 bytes per pair. 73910 chunks are used, the avg. number of values in one 64-chunk is 24.
+Map details: bytes/overhead 1 296 476 / 226 679 612, overhead includes 27 arrays with 8 MB
+RLE compresion info: compressed / uncompressed size / ratio: 352 598 / 1 786 132 / 81%
+
+Statistics for ways map:
+Length-1 chunks: 5 807, used Bytes including overhead: 59 640
+Length-2 chunks: 18, used Bytes including overhead: 424
+Length-3 chunks: 14, used Bytes including overhead: 520
+Length-4 chunks: 17, used Bytes including overhead: 672
+Length-5 chunks: 55, used Bytes including overhead: 1 104
+Length-6 chunks: 5, used Bytes including overhead: 832
+Length-7 chunks: 171, used Bytes including overhead: 4 104
+Length-8 chunks: 4, used Bytes including overhead: 1 080
+Length-9 chunks: 88, used Bytes including overhead: 3 032
+Length-10 chunks: 6, used Bytes including overhead: 1 352
+Length-11 chunks: 246, used Bytes including overhead: 7 648
+Length-12 chunks: 7, used Bytes including overhead: 1 616
+Length-13 chunks: 108, used Bytes including overhead: 4 216
+Length-14 chunks: 12, used Bytes including overhead: 1 912
+Length-15 chunks: 319, used Bytes including overhead: 12 248
+Length-16 chunks: 2, used Bytes including overhead: 2 088
+Length-17 chunks: 117, used Bytes including overhead: 5 312
+Length-18 chunks: 5, used Bytes including overhead: 2 368
+Length-19 chunks: 252, used Bytes including overhead: 11 792
+Length-20 chunks: 6, used Bytes including overhead: 2 632
+Length-21 chunks: 112, used Bytes including overhead: 6 296
+Length-22 chunks: 4, used Bytes including overhead: 2 872
+Length-23 chunks: 229, used Bytes including overhead: 13 656
+Length-24 chunks: 1, used Bytes including overhead: 3 104
+Length-25 chunks: 91, used Bytes including overhead: 7 152
+Length-26 chunks: 4, used Bytes including overhead: 3 384
+Length-27 chunks: 194, used Bytes including overhead: 15 424
+Length-28 chunks: 1, used Bytes including overhead: 3 616
+Length-29 chunks: 95, used Bytes including overhead: 8 208
+Length-30 chunks: 0, used Bytes including overhead: 0
+Length-31 chunks: 180, used Bytes including overhead: 13 392
+Length-32 chunks: 2, used Bytes including overhead: 4 136
+Length-33 chunks: 78, used Bytes including overhead: 9 096
+Length-34 chunks: 1, used Bytes including overhead: 4 384
+Length-35 chunks: 181, used Bytes including overhead: 14 936
+Length-36 chunks: 0, used Bytes including overhead: 0
+Length-37 chunks: 63, used Bytes including overhead: 5 264
+Length-38 chunks: 0, used Bytes including overhead: 0
+Length-39 chunks: 107, used Bytes including overhead: 10 864
+Length-40 chunks: 1, used Bytes including overhead: 5 152
+Length-41 chunks: 49, used Bytes including overhead: 5 664
+Length-42 chunks: 1, used Bytes including overhead: 5 408
+Length-43 chunks: 45, used Bytes including overhead: 5 888
+Length-44 chunks: 1, used Bytes including overhead: 5 664
+Length-45 chunks: 10, used Bytes including overhead: 5 864
+Length-46 chunks: 0, used Bytes including overhead: 0
+Length-47 chunks: 34, used Bytes including overhead: 6 312
+Length-48 chunks: 1, used Bytes including overhead: 6 176
+Length-49 chunks: 17, used Bytes including overhead: 6 432
+Length-50 chunks: 0, used Bytes including overhead: 0
+Length-51 chunks: 10, used Bytes including overhead: 6 632
+Length-52 chunks: 0, used Bytes including overhead: 0
+Length-53 chunks: 6, used Bytes including overhead: 6 856
+Length-54 chunks: 0, used Bytes including overhead: 0
+Length-55 chunks: 4, used Bytes including overhead: 7 096
+Length-56 chunks: 0, used Bytes including overhead: 0
+Length-57 chunks: 3, used Bytes including overhead: 7 344
+Length-58 chunks: 1, used Bytes including overhead: 7 456
+Length-59 chunks: 0, used Bytes including overhead: 0
+Length-60 chunks: 0, used Bytes including overhead: 0
+Length-61 chunks: 0, used Bytes including overhead: 0
+Length-62 chunks: 1, used Bytes including overhead: 7 968
+Length-63 chunks: 0, used Bytes including overhead: 0
+Length-64 chunks: 0, used Bytes including overhead: 0
+
+Number of stored ids: 293 363 require ca. 86.96 bytes per pair. 8786 chunks are used, the avg. number of values in one 64-chunk is 33.
+Map details: bytes/overhead 214 418 / 25 297 694, overhead includes 3 arrays with 8 MB
+RLE compresion info: compressed / uncompressed size / ratio: 72 065 / 293 362 / 76%
+  JVM Memory Info: Current 838MB (391MB used, 447MB free) Max 889MB
+Full Node tests:  24 851
+Quick Node tests: 1 773 707
+Thread worker-1 has finished
+Thread worker-0 has finished
+Distribution pass(es) took 5344 ms
+temporary file /home/le-bar_a/Dev/worko/project/osm/splitter/./node5697565722709295754.tmp was deleted
+temporary file /home/le-bar_a/Dev/worko/project/osm/splitter/./way7969559279463223466.tmp was deleted
+temporary file /home/le-bar_a/Dev/worko/project/osm/splitter/./rel3772554929885253288.tmp was deleted
+Time finished: Sun Oct 04 11:32:23 CEST 2015
+Total time taken: 33s

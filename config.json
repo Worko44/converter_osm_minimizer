@@ -1,0 +1,1 @@
+{"tag": {"name": ["*"], "highway": ["secondary_link", "tertiary_link", "secondary", "road", "trunk_link", "motorway", "motorway_link", "primary", "primary_link", "trunk", "tertiary"], "waterway": ["dam", "stream", "riverbank", "river", "canal"], "place": ["country", "city", "state", "village", "continent", "town"]}}

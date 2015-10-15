@@ -1,0 +1,1 @@
+cd bin && ./osmosis --rx file=../../osm_file/test.osm --mapfile-writer file=../../map_file/test.map bbox=14.33057,-61.39084,14.95903,-60.69546
